@@ -1,0 +1,129 @@
+html {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(150, 80%, 40%, 0.5);
+}
+
+h1 {
+  font-size: 60px;
+  color: #e76765;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  color: hsl(75, 20%, 40%, 1);
+  margin-bottom: 50px;
+}
+
+body {
+  width: 100%;
+}
+
+.form {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.form input[type="number"] {
+  width: 250px;
+  margin-left: 15px;
+  margin-right: 10px;
+  border-radius: 1px;
+}
+
+.guessSubmit {
+  width: 100px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  background-color: #33cccc;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+}
+
+.guesses {
+  text-align: center;
+  font-size: 30px;
+  color: hsl(0, 100%, 55%);
+  margin-bottom: 50px;
+}
+
+label {
+  color: #d4780f;
+  font-weight: bold;
+}
+
+.lowOrHi {
+  text-align: center;
+  font-size: 30px;
+  color: hsl(0, 100%, 55%);
+  margin-bottom: 50px;
+}
+
+.resultParas {
+  text-align: center;
+}
+
+.lastResult {
+  color: #fff;
+  width: 300px;
+  margin: auto;
+}
+
+.foot-div {
+  width: 100%;
+  position: absolute;
+  bottom: -40px;
+}
+
+.foot {
+  font-size: 12px;
+  color: rgb(111, 111, 111);
+}
+
+@media (max-width: 600px) {
+  p {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .form input[type="number"] {
+    margin-left: 10px;
+  }
+  .form {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  .guessSubmit {
+    width: 65px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  p {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .form {
+    font-size: 20px;
+  }
+  .form input[type="number"] {
+    margin-left: 10px;
+  }
+
+  .guessSubmit {
+    width: 80px;
+  }
+}
