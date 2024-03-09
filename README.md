@@ -5,6 +5,8 @@ This game should choose a random number between 1 and 100, then challenge the pl
 
 <p>This is a simple web-based number guessing game where the player tries to guess a randomly generated number between 1 and 100 within a limited number of turns. The game provides feedback to the player after each guess, indicating whether the guess is too high or too low. If the player guesses the correct number within the allotted turns, they win the game. Otherwise, the game ends, and the correct number is revealed. The player has the option to restart the game after each round.</p>
 
+<img src="https://i.postimg.cc/6QCL2ZLp/Screenshot-2024-03-09-140529.png" />
+
 <b>Features:</b>
 
 Randomly generated secret number between 1 and 100.<br>
