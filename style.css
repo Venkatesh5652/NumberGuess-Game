@@ -1,6 +1,7 @@
 html {
   font-family: "Inter", sans-serif;
-  background-color: hsl(150, 80%, 40%, 0.5);
+  /* background-color: hsl(150, 80%, 40%, 0.5); */
+  background: linear-gradient(to right, rgb(65, 188, 190), rgb(212, 170, 189));;
 }
 
 h1 {
@@ -85,7 +86,33 @@ label {
   color: rgb(111, 111, 111);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 450px){
+  p {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  label{
+    font-size: 15px;
+    margin-left: 30px;
+  }
+  .form input[type="number"] {
+    margin-left: 10px;
+  }
+  .form {
+    font-size: 15px;
+    margin-right: 40px;
+  }
+
+  .guessSubmit {
+    width: 70px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
   p {
     font-size: 15px;
   }
